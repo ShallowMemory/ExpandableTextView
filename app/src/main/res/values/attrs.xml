@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ExpandTextView">
+        <!-- 文本颜色 -->
+        <attr name="textColor" format="color|reference"/>
+        <attr name="moreTextColor" format="color|reference"/>
+        <!-- 最大显示文本行数 -->
+        <attr name="maxLines" format="integer|reference"/>
+        <!-- 文本字体大小 -->
+        <attr name="textSize" format="dimension|reference"/>
+        <!-- 动画显示时间-->
+        <attr name="animDuration" format="integer|reference"/>
+        <!-- 展开时候的提示图标 -->
+        <attr name="expandDrawable" format="string|reference"/>
+        <!-- 收缩收起时候的提示图标 -->
+        <attr name="shrinkDrawable" format="string|reference"/>
+    </declare-styleable>
+
+</resources>
